@@ -1,0 +1,69 @@
+*{
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(194, 124, 67, 0.3), rgba(205, 110, 43, 0.3)), url("https://images.pexels.com/photos/2177482/pexels-photo-2177482.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.page{
+    margin-top: 250px;
+    width: 100%;
+    height: 100%;
+    
+}
+.page .title{
+    border: 2px solid white;
+    width: 50rem;
+    margin-bottom: 2em;
+    background: black;
+    color: white;
+    height: 3em;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+.container{
+    background: white;
+    width: 50rem;
+    height: 20rem;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 0 4px 0  rgb(104, 100, 100);
+}
+.container .textarea{
+    margin: 1.5em 0;
+    font-size: 18px;
+}
+.container .person{
+    color: rgb(146, 71, 160);
+    font-size: 20px;
+    margin-bottom: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container button{
+    width: 10em;
+    height: 2em;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+.button-area button :active{
+    background-color: aquamarine;
+}
